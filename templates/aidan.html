@@ -1,6 +1,23 @@
 {% extends 'base.html' %}
 
-{% block title %} welcome to Aidan's Page {% endblock %}
+{% block title %} Welcome to My Page {% endblock %}
 
 
-{% block body %} It's Aidan! {% endblock %}
+{% block body %} 
+
+<h1>It's Aidan! A little bit about me: </h1>
+<img src="[css/images/headshot.jpg]" alt="[proffesional headshot]" />
+<ul>
+    <li> Student at the University of Iowa </li>
+    <li> Junior </li>
+    <li> Programs in progress </li>
+        <ul>
+	        <li> Information Systems major </li>
+            <li> Computer Science Minor </li>
+            <li> Entrepreneurial Management certificate </li>
+	    </ul>
+    <li> Tennis </li>
+</ul>
+
+
+{% endblock %}
