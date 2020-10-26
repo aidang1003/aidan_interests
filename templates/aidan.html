@@ -1,6 +1,28 @@
 {% extends 'base.html' %}
 
-{% block title %} welcome to Aidan's Page {% endblock %}
+{% block title %} Welcome to My Page {% endblock %}
 
 
-{% block body %} It's Aidan! {% endblock %}
+{% block body %} 
+
+<h1>A little bit about me: </h1>
+<img src="static/images/headshot.jpg" alt="proffesional headshot" />
+<ul>
+    <li> Student at the University of Iowa </li>
+    <li> Junior </li>
+    <li> Programs in progress </li>
+        <ul>
+	        <li> Information Systems major </li>
+            <li> Computer Science Minor </li>
+            <li> Entrepreneurial Management certificate </li>
+	    </ul>
+    <li> Tennis </li>
+</ul>
+
+<hr>
+<br>
+
+<h2>Contact Info</h2>
+<p class=" custom" > aidan-gorny@uiowa.edu</p>
+
+{% endblock %}
